@@ -1,0 +1,17 @@
+div{
+  justify-self:center;
+  background: linear-gradient(to bottom, rgb(202, 240, 229), rgb(9, 173, 182));
+  padding: 20px;
+  margin: 10px;
+  border-radius: 16px;
+}
+button{
+  cursor: pointer;
+  border-radius: 9px;
+  transition:0.3s ease;
+  
+
+}
+button:hover{
+  background-color: aquamarine;
+}

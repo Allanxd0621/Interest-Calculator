@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interst Calculator</title>
+  <link rel="stylesheet" href="interst.css">
+</head>
+<body>
+  
+  <div class="simple">
+    <h1>Simple interst Calculator</h1>
+    <br>
+    <label for="p">Amount:</label>
+    <input type="number" id="simpleP" placeholder="Enter interest amount">
+    <br>
+    <label for="r">Rate:</label>
+    <input type="number" id="simpleR" placeholder="Enter interst rate">
+    <br>
+    <h4>Note: only put months if necessary. <br>
+
+    <label for="t">Time:</label>
+    <input type="number" id="simpleT" placeholder="Enter how many years"><input type="number" id="simpleMonth" placeholder="Enter Months">
+    <br> <br>
+    <button onclick="showDetails()">Calculate</button>
+  </div>
+
+  <div class="compound">
+    <h1>Compound interst Calculator</h1>
+    <br>
+    <label for="p">Amount:</label>
+    <input type="number" id="compoundP" placeholder="Enter interest amount">
+    <br>
+    <label for="r">Rate:</label>
+    <input type="number" id="compoundR" placeholder="Enter interst rate">
+    <br>
+    <h4>Note: only put months if necessary. <br>
+
+    <label for="t">Time:</label>
+    <input type="number" id="compoundT" placeholder="Enter how many years"><input type="number" id="compoundMonth" placeholder="Enter Months">
+    <br> <br>
+    
+    <button onclick="runChoice('anual')">Anually</button>
+    <button onclick="runChoice('semi')">Semi Anually</button>
+    <button onclick="runChoice('quarter')">quarterly</button>
+    <button onclick="runChoice('monthly')">monthly</button>
+    <button onclick="runChoice('weekly')">weekly</button>
+    <button onclick="runChoice('daily')">daily</button>
+  </div>
+
+
+  
+  <script src="interst.js">
+   
+  </script>
+</body>
+</html>
